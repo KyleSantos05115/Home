@@ -1,0 +1,380 @@
+/*-----------------fonts starts-------------------*/
+@font-face {
+    font-family: nebula;
+    src: url(Nebula-Regular.otf);
+}
+
+@font-face {
+    font-family: nebula2;
+    src: url(Nebula-Hollow.otf);
+}
+
+@font-face {
+    font-family: robotothin;
+    src: url(Roboto-Thin.ttf);
+}
+
+@font-face {
+    font-family: aspace;
+    src: url(A-Space_Thin.otf);
+}
+
+@font-face {
+    font-family: dual;
+    src: url(Dual-300.otf);
+}
+
+@font-face {
+    font-family: autobus;
+    src: url(Autobus-Bold.ttf);
+}
+/*----------------ends-----------------------------*/
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+.num1 {
+    height: 100vh;
+    width: 100%;
+    background-image: url(1.png);
+    background-size: cover;
+    background-position: center;
+    
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 45px;
+    padding-left: 8%;
+    padding-right: 8%;
+}
+
+.logo {
+    color: white;
+    font-size: 50px;
+    letter-spacing: 1px;
+    cursor: pointer;
+    font-family: nebula;
+}
+
+span {
+    color: red;
+}
+
+nav ul li {
+    list-style-type: none;
+    display: inline-block;
+    padding: 10px 25px;
+}
+
+.button a {
+    text-decoration: none;
+    color: white;
+    font-family: inherit;
+    background-color: transparent;
+    cursor: pointer;
+}
+
+.btn {
+    background-color: red;
+    color: white;
+    text-decoration: none;
+    border: 2px solid transparent;
+    font-weight: bold;
+    padding: 10px 25px;
+    border-radius: 30px;
+    font-family: autobus;
+}
+
+.btn:hover {
+    border: 2px solid red;
+    cursor: pointer;
+    transform: scale(1.3);
+    transition: .3s;
+}
+
+.content {
+    position: absolute;
+    top: 50%;
+    left: 8%;
+    transform: translateY(-50%);
+    margin-left: 2%;
+}
+
+h1 {
+    color: white;
+    margin: 20px 0px 20px;
+    font-size: 60px;
+    font-family: nebula;
+    line-height: 35px;
+}
+
+h3 {
+    color: white;
+    font-size: 10px;
+    margin-bottom: 20px;
+    font-family: robotothin;
+    letter-spacing: 10px;
+}
+
+.about {
+    height: 100vh;
+    width: 100%;
+    padding: 100px 0px;
+    background-image: url(3.png);
+    background-size: cover;
+    background-position: center;
+}
+
+.about img {
+    height: auto;
+    width: 430px;
+    border-radius: 50px;
+}
+
+.about-text {
+    width: 550px;
+}
+
+.main {
+    width: 1130px;
+    max-width: 95%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.about-text h2 {
+    color: white;
+    font-size: 75px;
+    text-transform: capitalize;
+    margin-bottom: 20px;
+    font-family: nebula2;
+}
+
+.about-text p {
+    color: pink;
+    letter-spacing: 1px;
+    line-height: 28px;
+    font-size: 20px;
+    margin-bottom: 45px;
+    font-family: autobus;
+}
+
+.button {
+    background-color: red;
+    color: white;
+    text-decoration: none;
+    border: 2px solid transparent;
+    font-weight: bold;
+    padding: 13px 30px;
+    border-radius: 30px;
+    transition: .4s;
+}
+
+.button:hover {
+    background-color: transparent;
+    border: 2px solid red;
+    cursor: pointer;
+}
+
+.bars img {
+    height: 50px;
+    width: 50px;
+    border: 5px solid red;
+    padding: 3px;
+    margin: 5px;
+    border-radius: 30px;
+}
+
+.service {
+    background-image: url(2.png);
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    padding: 100px 0px;
+}
+
+.title h2 {
+    color: white;
+    font-size: 75px;
+    width: 1130px;
+    margin: 30px auto;
+    text-align: center;
+    font-family: nebula2;
+}
+
+.box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 400px;
+}
+
+.card {
+    height: 365px;
+    width: 335px;
+    padding: 20px 35px;
+    background: #191919;
+    border-radius: 20px;
+    margin: 15px;
+    position: relative;
+    overflow: hidden;
+    text-align: center;
+}
+
+h5 {
+    color: white;
+    font-size: 23px;
+    margin-bottom: 15px;
+    font-family: dual;
+}
+
+.pra p {
+    color: pink;
+    font-size: 16px;
+    line-height: 27px;
+    margin-bottom: 25px;
+    font-family: autobus;
+}
+
+.card .button {
+    background-color: red;
+    color: white;
+    text-decoration: none;
+    border: 2px solid transparent;
+    font-weight: bold;
+    padding: 9px 22px;
+    border-radius: 30px;
+    transition: .4s;
+}
+
+.card .button:hover {
+    background-color: transparent;
+    border: 2px solid red;
+    cursor: pointer;
+}
+
+.contact {
+    width: 100%;
+    height: 398px;
+    background: #191919;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.contact p {
+    color: white;
+    font-weight: bold;
+    margin-bottom: 25px;
+    font-family: robotothin;
+    letter-spacing: 1.5px;
+    line-height: 28px;
+}
+
+.contact h6 {
+    color: white;
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom: 25px;
+    font-family: nebula;
+}
+
+footer {
+    position: relative;
+    width: 100%;
+    height: 300px;
+    background: #101010;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+footer p:nth-child(1) {
+    font-size: 30px;
+    color: white;
+    margin-bottom: 20px;
+    font-weight: bold;
+    font-family: dual;
+}
+
+footer p:nth-child(2) {
+    color: white;
+    font-size: 17px;
+    text-align: center;
+    line-height: 26px;
+    font-family: autobus;
+}
+
+.social {
+    display: flex;
+}
+
+.social a {
+    width: 45px;
+    height: 45px; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: red;
+    border-radius: 50%;
+    margin: 22px 10px;
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.social a:hover {
+    transform: scale(1.3);
+    transition: .3s;
+}
+
+.end {
+    position: absolute;
+    color: white;
+    bottom: 35px;
+    font-size: 14px;
+    font-family: aspace;
+}
+
+.gotopbtn {
+    position: fixed;
+    width: 50px;
+    height: 50px;
+    background: red;
+    bottom: 42px;
+    right: 28px;
+    bottom: 20px;
+    text-decoration: none;
+    text-align: center;
+    line-height: 25px;
+    border: 2px solid transparent;
+    font-weight: bold;
+    padding: 8px 10px;
+    border-radius: 30px;
+}
+
+.gotopbtn:hover {
+    transform: scale(1.3);
+    transition: .3s;
+}
+
+
+
+
+
+
+
+
+
+
+
